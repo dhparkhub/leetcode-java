@@ -7,17 +7,19 @@ import java.util.Map;
 public class P1389 {
 
     class Solution {
-        public int sumFourDivisors(int[] nums) {
-
+        public int[] createTargetArray(int[] nums, int[] index) {
+            init();
+            for (int i = 0; i < nums.length; i++) {
+                targetList.add(index[i], nums[i]);
+            }
+            return targetList.stream().mapToInt(i->i).toArray();
         }
 
         void init() {
-            primes = new ArrayList<>();
-            
+            targetList = new LinkedList<>();
         }
 
-        private List<Integer> primes;
-        private Map<Integer, Boolean> productOfTwoPrimes;
+        private List<Integer> targetList;
     }
 
 }
