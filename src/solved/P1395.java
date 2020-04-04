@@ -1,43 +1,46 @@
 package solved;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class P1395 {
 
     class Solution {
         public int numTeams(int[] rating) {
             init(rating);
-            pickThreeSoliders(0, new ArrayList<>());
+            pickThreeSoldiers(0, 0);
             return answer;
         }
 
-        public void pickThreeSoliders(int index, List<Integer> picked) {
-            if (picked.size() == 3) {
-                if (picked.get(0) < picked.get(1) && picked.get(1) < picked.get(2)) {
+        public void pickThreeSoldiers(int index, int count) {
+            // if pick three soldiers
+            if (count == 3) {
+                if (picked[0] < picked[1] && picked[1] < picked[2]) {
                     answer++;
-                } else if (picked.get(0) > picked.get(1) && picked.get(1) > picked.get(2)) {
+                } else if (picked[0] > picked[1] && picked[1] > picked[2]) {
                     answer++;
                 }
                 return;
             }
 
-            if (index == rating.length) return;
+            if (index == rating.length) {
+                return;
+            }
 
-            pickThreeSoliders(index + 1, new ArrayList<>(picked));
+            // pass
+            pickThreeSoldiers(index + 1, count);
 
-            List<Integer> list = new ArrayList<>(picked);
-            list.add(rating[index]);
-            pickThreeSoliders(index + 1, list);
+            // pick soldiers[index]
+            picked[count] = rating[index];
+            pickThreeSoldiers(index + 1, count + 1);
         }
 
         public void init(int[] rating) {
             answer = 0;
             this.rating = rating;
+            picked = new int[3];
         }
 
         private int answer;
         private int[] rating;
+        private int[] picked;
     }
 
 }
