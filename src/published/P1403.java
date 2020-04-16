@@ -1,4 +1,4 @@
-package solved;
+package published;
 
 import java.util.ArrayList;
 import java.util.Collections;
