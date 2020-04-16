@@ -1,7 +1,5 @@
 package published;
 
-import java.util.PriorityQueue;
-
 public class P21 {
 
     public class ListNode {
