@@ -17,25 +17,20 @@ public class P21 {
             ListNode curNode = null;
 
             while (l1 != null || l2 != null) {
-                ListNode tempNode = null;
+                // if one list is empty
+                if (l1 == null || l2 || null) {
+                    curNode = l1 != null ? l1 : l2;
+                    break;
+                }
 
                 // find next node
-                if (l1 == null) {
-                    tempNode = l2;
-                    l2 = l2.next;
-                }
-                else if (l2 == null) {
+                ListNode tempNode = null;
+                if (l1.val < l2.val) {
                     tempNode = l1;
                     l1 = l1.next;
-                }
-                else {
-                    if (l1.val < l2.val) {
-                        tempNode = l1;
-                        l1 = l1.next;
-                    } else {
-                        tempNode = l2;
-                        l2 = l2.next;
-                    }
+                } else {
+                    tempNode = l2;
+                    l2 = l2.next;
                 }
 
                 // connect node to list
