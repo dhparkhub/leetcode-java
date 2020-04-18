@@ -1,4 +1,4 @@
-package solved;
+package published;
 
 public class P53 {
 
