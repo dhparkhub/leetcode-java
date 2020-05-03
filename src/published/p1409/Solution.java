@@ -1,4 +1,4 @@
-package solved.p1409;
+package published.p1409;
 
 class Solution {
     public int[] processQueries(int[] queries, int m) {

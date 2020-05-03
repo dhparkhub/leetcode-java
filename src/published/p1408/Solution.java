@@ -1,4 +1,4 @@
-package solved.p1408;
+package published.p1408;
 
 import java.util.ArrayList;
 import java.util.HashMap;
