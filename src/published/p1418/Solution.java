@@ -1,4 +1,4 @@
-package solved.p1418;
+package published.p1418;
 
 import java.util.*;
 
@@ -10,7 +10,7 @@ class Solution {
     public List<List<String>> displayTable(List<List<String>> orders) {
         for (int i = 0; i < orders.size(); i++) {
             List<String> order = orders.get(i);
-            String orderer = order.get(0);
+            // String orderer = order.get(0);
             String tableNum = order.get(1);
             String menu = order.get(2);
 

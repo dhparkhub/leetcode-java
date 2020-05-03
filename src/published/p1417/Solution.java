@@ -1,4 +1,4 @@
-package solved.p1417;
+package published.p1417;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -20,14 +20,8 @@ class Solution {
             return "";
         }
 
-        boolean flag = true;
-        if (chStack.size() >= intStack.size()) {
-            flag = true;
-        } else {
-            flag = false;
-        }
-
         StringBuilder sb = new StringBuilder();
+        boolean flag = chStack.size() >= intStack.size();
         while (!chStack.isEmpty() || !intStack.isEmpty()) {
             if (flag) {
                 sb.append(chStack.remove());
