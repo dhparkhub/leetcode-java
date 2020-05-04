@@ -1,34 +1,32 @@
-package solved;
+package solved.p125;
 
-public class P125 {
-
-    class Solution {
-        public boolean isPalindrome(String s) {
-            int i = 0, j = s.length() - 1;
-            while (i < j) {
-                while (i < s.length() && !isAlphanumeric(s.charAt(i))) {
-                    i++;
-                }
-                while (j >= 0 && !isAlphanumeric(s.charAt(j))) {
-                    j--;
-                }
-                if (i == s.length() && j == -1) return true;
-                char x = Character.toUpperCase(s.charAt(i));
-                char y = Character.toUpperCase(s.charAt(j));
-                if (x != y) return false;
+class Solution {
+    public boolean isPalindrome(String s) {
+        int i = 0, j = s.length() - 1;
+        while (i < j) {
+            while (i < s.length() && !isAlphanumeric(s.charAt(i))) {
                 i++;
+            }
+            while (j >= 0 && !isAlphanumeric(s.charAt(j))) {
                 j--;
             }
-            return true;
+            if (i == s.length() && j == -1) return true;
+            char x = Character.toUpperCase(s.charAt(i));
+            char y = Character.toUpperCase(s.charAt(j));
+            if (x != y) return false;
+            i++;
+            j--;
         }
-
-        private boolean isAlphanumeric(char ch) {
-            if (ch >= '0' && ch <= '9') return true;
-            if (ch >= 'a' && ch <= 'z') return true;
-            if (ch >= 'A' && ch <= 'Z') return true;
-            return false;
-        }
+        return true;
     }
+
+    private boolean isAlphanumeric(char ch) {
+        if (ch >= '0' && ch <= '9') return true;
+        if (ch >= 'a' && ch <= 'z') return true;
+        if (ch >= 'A' && ch <= 'Z') return true;
+        return false;
+    }
+}
 
 //    class Solution {
 //        public boolean isPalindrome(String s) {
@@ -55,5 +53,3 @@ public class P125 {
 //            return false;
 //        }
 //    }
-
-}
