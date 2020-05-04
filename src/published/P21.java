@@ -18,7 +18,7 @@ public class P21 {
 
             while (l1 != null || l2 != null) {
                 // if one list is empty
-                if (l1 == null || l2 || null) {
+                if (l1 == null || l2 == null) {
                     curNode = l1 != null ? l1 : l2;
                     break;
                 }
