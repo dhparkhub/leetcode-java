@@ -1,4 +1,4 @@
-package solved.p5;
+package published.p5;
 
 class Solution {
     private String s;
