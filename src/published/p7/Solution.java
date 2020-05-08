@@ -1,4 +1,4 @@
-package solved.p7;
+package published.p7;
 
 class Solution {
     public int reverse(int x) {
