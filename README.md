@@ -5,6 +5,7 @@
 - [1. Two Sum](./src/published/p1/Solution.java)
 - [2. Add Two Numbers](./src/published/p2/Solution.java)
 - [5. Longest Palindromic Substring](./src/published/p5/Solution.java)
+- [7. Reverse Integer](./src/published/p7/Solution.java)
 - [20. Valid Parentheses](./src/published/p20/Solution.java)
 - [21. Merge Two Sorted Lists](./src/published/p21/Solution.java)
 - [53. Maximum Subarray](./src/published/p53/Solution.java)
