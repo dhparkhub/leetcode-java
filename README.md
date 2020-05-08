@@ -3,6 +3,7 @@
 ## Solution
 
 - [1. Two Sum](./src/published/p1/Solution.java)
+
 - [2. Add Two Numbers](./src/published/p2/Solution.java)
 - [5. Longest Palindromic Substring](./src/published/p5/Solution.java)
 - [7. Reverse Integer](./src/published/p7/Solution.java)
