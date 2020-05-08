@@ -4,22 +4,28 @@ import java.util.HashMap;
 import java.util.Map;
 
 class Solution {
+    private final Map<Integer, Integer> map = new HashMap<>();
+    
     public int[] twoSum(int[] nums, int target) {
-        int[] answer = new int[2];
-
-        // for storing index of number
-        Map<Integer, Integer> map = new HashMap<>();
-
-        // find two numbers with a sum of target
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(target - nums[i])) {
-                answer[0] = map.get(target - nums[i]);
-                answer[1] = i;
-                break;
+                return new int[]{map.get(target - nums[i]), i};
             }
             map.put(nums[i], i);
         }
-
-        return answer;
+        return null;
     }
 }
+
+//class Solution {
+//    public int[] twoSum(int[] nums, int target) {
+//        for (int i = 0; i < nums.length - 1; i++) {
+//            for (int j = i + 1; j < nums.length; j++) {
+//                if (nums[i] + nums[j] == target) {
+//                    return new int[]{i, j};
+//                }
+//            }
+//        }
+//        return null;
+//    }
+//}
