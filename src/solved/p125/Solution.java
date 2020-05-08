@@ -2,7 +2,8 @@ package solved.p125;
 
 class Solution {
     public boolean isPalindrome(String s) {
-        int i = 0, j = s.length() - 1;
+        int i = 0;
+        int j = s.length() - 1;
         while (i < j) {
             while (i < s.length() && !isAlphanumeric(s.charAt(i))) {
                 i++;
@@ -10,7 +11,7 @@ class Solution {
             while (j >= 0 && !isAlphanumeric(s.charAt(j))) {
                 j--;
             }
-            if (i == s.length() && j == -1) return true;
+            if (i == s.length() || j == -1) return true;
             char x = Character.toUpperCase(s.charAt(i));
             char y = Character.toUpperCase(s.charAt(j));
             if (x != y) return false;
@@ -20,36 +21,21 @@ class Solution {
         return true;
     }
 
-    private boolean isAlphanumeric(char ch) {
-        if (ch >= '0' && ch <= '9') return true;
-        if (ch >= 'a' && ch <= 'z') return true;
-        if (ch >= 'A' && ch <= 'Z') return true;
-        return false;
+    private Boolean isAlphanumeric(char x) {
+        return (x >= 'a' && x <= 'z') || (x >= 'A' && x <= 'Z') || (x >= '0' && x <= '9');
     }
 }
 
-//    class Solution {
-//        public boolean isPalindrome(String s) {
-//            StringBuilder sb = new StringBuilder();
-//            for (int i = 0; i < s.length(); i++) {
-//                char temp = s.charAt(i);
-//                if (isAlphanumeric(temp)) {
-//                    sb.append(Character.toUpperCase(temp));
-//                }
-//            }
-//            String str = sb.toString();
-//            for (int i = 0; i < str.length(); i++) {
-//                if (str.charAt(i) != str.charAt(str.length() - i - 1)) {
-//                    return false;
-//                }
-//            }
-//            return true;
+//class Solution {
+//    public boolean isPalindrome(String s) {
+//        String temp = s.replaceAll("[^a-zA-Z0-9]", "").toUpperCase();
+//        int i = 0;
+//        int j = temp.length() - 1;
+//        while (i < j) {
+//            if (temp.charAt(i) != temp.charAt(j)) return false;
+//            i++;
+//            j--;
 //        }
-//
-//        private boolean isAlphanumeric(char ch) {
-//            if (ch >= '0' && ch <= '9') return true;
-//            if (ch >= 'a' && ch <= 'z') return true;
-//            if (ch >= 'A' && ch <= 'Z') return true;
-//            return false;
-//        }
+//        return true;
 //    }
+//}
