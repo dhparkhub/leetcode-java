@@ -5,6 +5,9 @@
 - [1. Two Sum](./src/published/p1)
 - [2. Add Two Numbers](./src/published/p2)
 - [3. Longest Substring Without Repeating Characters](./src/published/p3)
+- [1436. Destination City](./src/published/p1436)
+- [1437. Check If All 1's Are at Least Length K Places Away](./src/published/p1437)
+- [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./src/published/p1438)
 
 
 - [5. Longest Palindromic Substring](./src/published/p5)
