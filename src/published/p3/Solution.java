@@ -1,4 +1,4 @@
-package solved.p3;
+package published.p3;
 
 import java.util.HashMap;
 import java.util.Map;
