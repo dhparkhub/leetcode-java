@@ -1,4 +1,4 @@
-package solved.p13;
+package published.p13;
 
 import java.util.HashMap;
 import java.util.Map;
