@@ -6,6 +6,7 @@
 - [2. Add Two Numbers](./src/published/p2)
 - [3. Longest Substring Without Repeating Characters](./src/published/p3)
 - [5. Longest Palindromic Substring](src/published/p5)
+- [15. 3Sum](./src/published/p15)
 - [13. Roman to Integer](./src/published/p13)
 - [1436. Destination City](./src/published/p1436)
 - [1437. Check If All 1's Are at Least Length K Places Away](./src/published/p1437)
