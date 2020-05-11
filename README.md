@@ -6,6 +6,7 @@
 - [2. Add Two Numbers](./src/published/p2)
 - [3. Longest Substring Without Repeating Characters](./src/published/p3)
 - [5. Longest Palindromic Substring](src/published/p5)
+- [7. Reverse Integer](src/published/p7)
 - [15. 3Sum](./src/published/p15)
 - [13. Roman to Integer](./src/published/p13)
 - [1436. Destination City](./src/published/p1436)
@@ -13,7 +14,6 @@
 - [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./src/published/p1438)
 
 
-- [7. Reverse Integer](./src/published/p7)
 - [20. Valid Parentheses](./src/published/p20)
 - [21. Merge Two Sorted Lists](./src/published/p21)
 - [53. Maximum Subarray](./src/published/p53)
