@@ -1,12 +1,9 @@
 package solved.p1424;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 class Solution {
-    private final Map<Integer, LinkedList<Integer>> map = new TreeMap<>();
+    private final Map<Integer, LinkedList<Integer>> map = new LinkedHashMap<>();
 
     public int[] findDiagonalOrder(List<List<Integer>> nums) {
         int totalSize = 0;
