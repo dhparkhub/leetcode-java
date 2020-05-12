@@ -10,10 +10,11 @@ class Solution {
         for (int i = 0; i < nums.size(); i++) {
             totalSize += nums.get(i).size();
             for (int j = 0; j < nums.get(i).size(); j++) {
-                if (!map.containsKey(i + j)) {
-                    map.put(i + j, new LinkedList<>());
-                }
-                map.get(i + j).addFirst(nums.get(i).get(j));
+                int key = i + j;
+                int value = nums.get(i).get(j);
+                LinkedList<Integer> list = map.getOrDefault(key, new LinkedList<Integer>());
+                list.addFirst(value);
+                map.put(key, list);
             }
         }
 
