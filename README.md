@@ -11,13 +11,13 @@
 - [13. Roman to Integer](./src/published/p13)
 - [20. Valid Parentheses](./src/published/p20)
 - [21. Merge Two Sorted Lists](./src/published/p21)
+- [53. Maximum Subarray](./src/published/p53)
 - [64. Minimum Path Sum](./src/published/p64)
 - [1436. Destination City](./src/published/p1436)
 - [1437. Check If All 1's Are at Least Length K Places Away](./src/published/p1437)
 - [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./src/published/p1438)
 
 
-- [53. Maximum Subarray](./src/published/p53)
 - [1394. Find Lucky Integer in an Array](./src/published/p1394)
 - [1395. Count Number of Teams](./src/published/p1395)
 - [1396. Design Underground System](./src/published/p1396)
