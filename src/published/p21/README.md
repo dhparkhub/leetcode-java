@@ -1,14 +1,12 @@
-package published.p21;
+# [Leetcode] 21. Merge Two Sorted Lists
 
-class ListNode {
-    int val;
-    ListNode next;
+오름차순으로 정렬된 두 링크드 리스트를 하나로 합치되, 합친 링크드 리스트도 오름차순으로 정렬되어야 한다.
 
-    ListNode(int x) {
-        val = x;
-    }
-}
+## Solution
 
+두 리스트를 동시에 탐색하면서, 둘 중 작은 노드를 취하는 방식으로 링크드 리스트를 연결해 나간다.
+
+```java
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode headNode = null;
@@ -16,11 +14,7 @@ class Solution {
 
         while (l1 != null || l2 != null) {
             if (l1 == null || l2 == null) {
-                if (headNode == null) {
-                    headNode = curNode = l1 != null ? l1 : l2;
-                } else {
-                    curNode.next = l1 != null ? l1 : l2;
-                }
+                curNode = l1 != null ? l1 : l2;
                 break;
             }
 
@@ -44,3 +38,8 @@ class Solution {
         return headNode;
     }
 }
+```
+
+| Time Complexity | Runtime | Memory |
+|-----------------|---------|--------|
+| O(NM) | 0 ms | 38.9 MB |
