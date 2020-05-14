@@ -1,27 +1,17 @@
-package published.p1394;
-
-import java.util.Arrays;
+package p1394;
 
 class Solution {
+    private final int[] visited = new int[501];
+
     public int findLucky(int[] arr) {
-        init();
-        for (int i = 0; i < arr.length; i++) {
-            visited[arr[i]]++;
+        for (int i : arr) {
+            visited[i]++;
         }
-        for (int i = 1; i <= 500; i++) {
+        for (int i = 500; i >= 1; i--) {
             if (i == visited[i]) {
-                answer = i;
+                return i;
             }
         }
-        return answer;
+        return -1;
     }
-
-    public void init() {
-        answer = -1;
-        visited = new int[501];
-        Arrays.fill(visited, 0);
-    }
-
-    private int answer;
-    private int[] visited;
 }

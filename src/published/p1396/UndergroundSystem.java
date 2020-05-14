@@ -1,13 +1,31 @@
-package published.p1396;
+package p1396;
 
 import java.util.HashMap;
 import java.util.Map;
 
 class UndergroundSystem {
-    public UndergroundSystem() {
-        checkInMap = new HashMap<>();
-        checkOutMap = new HashMap<>();
+    class CheckInInfo {
+        private String stationName;
+        private int t;
+
+        CheckInInfo(String stationName, int t) {
+            this.stationName = stationName;
+            this.t = t;
+        }
     }
+
+    class CheckOutInfo {
+        private int total;
+        private int count;
+
+        CheckOutInfo(int total, int count) {
+            this.total = total;
+            this.count = count;
+        }
+    }
+
+    private final Map<Integer, CheckInInfo> checkInMap = new HashMap<>();
+    private final Map<String, CheckOutInfo> checkOutMap = new HashMap<>();
 
     public void checkIn(int id, String stationName, int t) {
         checkInMap.put(id, new CheckInInfo(stationName, t));
@@ -29,27 +47,4 @@ class UndergroundSystem {
         CheckOutInfo checkOutInfo = checkOutMap.get(checkOutKey);
         return (double) checkOutInfo.total / checkOutInfo.count;
     }
-
-    class CheckInInfo {
-        private String stationName;
-        private int t;
-
-        CheckInInfo(String stationName, int t) {
-            this.stationName = stationName;
-            this.t = t;
-        }
-    }
-
-    class CheckOutInfo {
-        private int total;
-        private int count;
-
-        CheckOutInfo(int total, int count) {
-            this.total = total;
-            this.count = count;
-        }
-    }
-
-    private Map<Integer, CheckInInfo> checkInMap;
-    private Map<String, CheckOutInfo> checkOutMap;
 }

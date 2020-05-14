@@ -17,11 +17,11 @@
 - [1436. Destination City](./src/published/p1436)
 - [1437. Check If All 1's Are at Least Length K Places Away](./src/published/p1437)
 - [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./src/published/p1438)
+- [1394. Find Lucky Integer in an Array](src/published/p1394)
+- [1395. Count Number of Teams](src/published/p1395)
+- [1396. Design Underground System](src/published/p1396)
 
 
-- [1394. Find Lucky Integer in an Array](./src/published/p1394)
-- [1395. Count Number of Teams](./src/published/p1395)
-- [1396. Design Underground System](./src/published/p1396)
 - [1403. Minimum Subsequence in Non-Increasing Order](./src/published/p1403)
 - [1404. Number of Steps to Reduce a Number in Binary Representation to One](./src/published/p1404)
 - [1405. Longest Happy String](./src/published/p1405)
