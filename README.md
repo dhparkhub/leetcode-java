@@ -14,6 +14,7 @@
 - [53. Maximum Subarray](./src/published/p53)
 - [64. Minimum Path Sum](./src/published/p64)
 - [88. Merge Sorted Array](./src/published/p88)
+- [121. Best Time to Buy and Sell Stock](./src/published/p121)
 - [1436. Destination City](./src/published/p1436)
 - [1437. Check If All 1's Are at Least Length K Places Away](./src/published/p1437)
 - [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./src/published/p1438)

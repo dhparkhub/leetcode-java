@@ -1,4 +1,4 @@
-package solved.p121;
+package p121;
 
 class Solution {
     public int maxProfit(int[] prices) {
