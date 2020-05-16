@@ -1,4 +1,4 @@
-package solved.p125;
+package p125;
 
 class Solution {
     public boolean isPalindrome(String s) {
