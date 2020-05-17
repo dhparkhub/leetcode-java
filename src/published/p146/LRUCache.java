@@ -1,4 +1,4 @@
-package solved.p146;
+package p146;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
