@@ -1,14 +1,15 @@
 package published.p200;
 
 class Solution {
-    private final int[] MR = {0, 1, 0, -1};
-    private final int[] MC = {1, 0, -1, 0};
+    private final int[] mr = {0, 1, 0, -1};
+    private final int[] mc = {1, 0, -1, 0};
     private char[][] grid;
     private boolean[][] visited;
 
     public int numIslands(char[][] grid) {
         if (grid.length == 0) return 0;
-        init(grid);
+        this.grid = grid;
+        visited = new boolean[grid.length][grid[0].length];
         int count = 0;
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[i].length; j++) {
@@ -21,16 +22,11 @@ class Solution {
         return count;
     }
 
-    private void init(char[][] grid) {
-        this.grid = grid;
-        visited = new boolean[grid.length][grid[0].length];
-    }
-
     private void dfs(int r, int c) {
         visited[r][c] = true;
         for (int i = 0; i < 4; i++) {
-            int nr = r + MR[i];
-            int nc = c + MC[i];
+            int nr = r + mr[i];
+            int nc = c + mc[i];
             if (valid(nr, nc) && !visited[nr][nc] && grid[nr][nc] == '1') {
                 dfs(nr, nc);
             }
