@@ -1,4 +1,4 @@
-package solved.p200;
+package published.p200;
 
 class Solution {
     private final int[] MR = {0, 1, 0, -1};
