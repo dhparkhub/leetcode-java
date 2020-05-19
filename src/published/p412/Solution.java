@@ -1,4 +1,4 @@
-package solved.p412;
+package published.p412;
 
 import java.util.Arrays;
 import java.util.List;
