@@ -1,4 +1,4 @@
-package solved.p202;
+package published.p202;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,12 +9,12 @@ class Solution {
     public boolean isHappy(int n) {
         while (n != 1 && !cache.containsKey(n)) {
             cache.put(n, true);
-            n = hapify(n);
+            n = happify(n);
         }
         return n == 1;
     }
 
-    private int hapify(int n) {
+    private int happify(int n) {
         int ret = 0;
         while (n != 0) {
             ret += Math.pow(n % 10, 2);
