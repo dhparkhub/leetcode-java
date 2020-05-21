@@ -1,4 +1,4 @@
-package solved.p206;
+package published.p206;
 
 class ListNode {
     int val;
