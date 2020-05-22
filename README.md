@@ -1,6 +1,6 @@
 # Leetcode
 
-## Solution
+## Solved Problems 
 
 - [1. Two Sum](./src/published/p1)
 - [2. Add Two Numbers](./src/published/p2)
@@ -19,6 +19,7 @@
 - [146. LRU Cache](./src/published/p146)
 - [202. Happy Number](./src/published/p202)
 - [206. Reverse Linked List](./src/published/p206)
+- [207. Course Schedule](./src/published/p207)
 - [1436. Destination City](./src/published/p1436)
 - [1437. Check If All 1's Are at Least Length K Places Away](./src/published/p1437)
 - [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./src/published/p1438)
@@ -26,6 +27,8 @@
 - [1395. Count Number of Teams](./src/published/p1395)
 - [1396. Design Underground System](./src/published/p1396)
 
+
+## Unpublished Problems
 
 - [1403. Minimum Subsequence in Non-Increasing Order](./src/published/p1403)
 - [1404. Number of Steps to Reduce a Number in Binary Representation to One](./src/published/p1404)
