@@ -1,4 +1,4 @@
-package solved.p743;
+package published.p743;
 
 import java.util.*;
 
