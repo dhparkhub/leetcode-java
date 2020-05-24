@@ -1,6 +1,6 @@
 # Leetcode
 
-## Solved Problems 
+## Solved Problems
 
 - [1. Two Sum](./src/published/p1)
 - [2. Add Two Numbers](./src/published/p2)
@@ -27,6 +27,7 @@
 - [1394. Find Lucky Integer in an Array](./src/published/p1394)
 - [1395. Count Number of Teams](./src/published/p1395)
 - [1396. Design Underground System](./src/published/p1396)
+- [1450. Number of Students Doing Homework at a Given Time](./src/published/p1450)
 
 
 ## Unpublished Problems
