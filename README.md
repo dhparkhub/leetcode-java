@@ -28,6 +28,7 @@
 - [1395. Count Number of Teams](./src/published/p1395)
 - [1396. Design Underground System](./src/published/p1396)
 - [1450. Number of Students Doing Homework at a Given Time](./src/published/p1450)
+- [1451. Rearrange Words in a Sentence](./src/published/p1451)
 
 
 ## Unpublished Problems
