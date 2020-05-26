@@ -29,6 +29,7 @@
 - [1396. Design Underground System](./src/published/p1396)
 - [1450. Number of Students Doing Homework at a Given Time](./src/published/p1450)
 - [1451. Rearrange Words in a Sentence](./src/published/p1451)
+- [1452. People Whose List of Favorite Companies Is Not a Subset of Another List](./src/published/p1452)
 
 
 ## Unpublished Problems
