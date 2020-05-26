@@ -1,4 +1,4 @@
-package p1452;
+package published.p1452;
 
 import java.util.ArrayList;
 import java.util.HashMap;
