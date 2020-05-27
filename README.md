@@ -7,6 +7,7 @@
 - [3. Longest Substring Without Repeating Characters](./src/published/p3)
 - [5. Longest Palindromic Substring](src/published/p5)
 - [7. Reverse Integer](src/published/p7)
+- [14. Longest Common Prefix](./src/published/p14)
 - [15. 3Sum](./src/published/p15)
 - [13. Roman to Integer](./src/published/p13)
 - [20. Valid Parentheses](./src/published/p20)
