@@ -12,6 +12,7 @@
 - [13. Roman to Integer](./src/published/p13)
 - [20. Valid Parentheses](./src/published/p20)
 - [21. Merge Two Sorted Lists](./src/published/p21)
+- [22. Generate Parentheses](./src/published/p22)
 - [53. Maximum Subarray](./src/published/p53)
 - [64. Minimum Path Sum](./src/published/p64)
 - [88. Merge Sorted Array](./src/published/p88)
