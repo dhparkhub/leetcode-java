@@ -1,4 +1,4 @@
-package p56;
+package published.p56;
 
 import java.util.ArrayList;
 import java.util.Arrays;
