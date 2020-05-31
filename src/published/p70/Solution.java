@@ -1,4 +1,4 @@
-package p70;
+package published.p70;
 
 class Solution {
     private int[] cache;

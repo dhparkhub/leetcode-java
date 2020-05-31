@@ -16,6 +16,7 @@
 - [53. Maximum Subarray](./src/published/p53)
 - [56. Merge Intervals](./src/published/p56)
 - [64. Minimum Path Sum](./src/published/p64)
+- [70. Climbing Stairs](./src/published/p70)
 - [88. Merge Sorted Array](./src/published/p88)
 - [121. Best Time to Buy and Sell Stock](./src/published/p121)
 - [125. Valid Palindrome](./src/published/p125)
