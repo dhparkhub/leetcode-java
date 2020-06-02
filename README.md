@@ -20,6 +20,7 @@
 - [88. Merge Sorted Array](./src/published/p88)
 - [121. Best Time to Buy and Sell Stock](./src/published/p121)
 - [125. Valid Palindrome](./src/published/p125)
+- [138. Copy List with Random Pointer](./src/published/p138)
 - [146. LRU Cache](./src/published/p146)
 - [202. Happy Number](./src/published/p202)
 - [206. Reverse Linked List](./src/published/p206)
