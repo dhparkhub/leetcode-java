@@ -1,4 +1,4 @@
-package published.p1423;
+package p1423;
 
 class Solution {
     public int maxScore(int[] cardPoints, int k) {

@@ -1,4 +1,4 @@
-package published.p1418;
+package p1418;
 
 import java.util.*;
 

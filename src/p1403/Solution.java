@@ -1,4 +1,4 @@
-package published.p1403;
+package p1403;
 
 import java.util.ArrayList;
 import java.util.Collections;

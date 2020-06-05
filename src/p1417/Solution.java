@@ -1,4 +1,4 @@
-package published.p1417;
+package p1417;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package published.p1404;
+package p1404;
 
 class Solution {
     private int answer;

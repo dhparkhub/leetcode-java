@@ -1,4 +1,4 @@
-package published.p1405;
+package p1405;
 
 import java.util.PriorityQueue;
 

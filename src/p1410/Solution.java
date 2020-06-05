@@ -1,4 +1,4 @@
-package published.p1410;
+package p1410;
 
 class Solution {
     public String entityParser(String text) {

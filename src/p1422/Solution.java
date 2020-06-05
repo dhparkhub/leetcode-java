@@ -1,4 +1,4 @@
-package published.p1422;
+package p1422;
 
 class Solution {
     public int maxScore(String s) {
