@@ -6,18 +6,19 @@ import java.util.List;
 import java.util.Queue;
 
 class Solution {
+    private boolean[] completed;
     private final List<List<Integer>> graph = new ArrayList<>();
     private final List<List<Integer>> inGraph = new ArrayList<>();
     private final Queue<Integer> q = new LinkedList<>();
-    private boolean[] completed;
     private int answer = 0;
 
     public int minReorder(int n, int[][] connections) {
+        completed = new boolean[n];
+
         for (int i = 0; i < n; i++) {
             graph.add(new ArrayList<>());
             inGraph.add(new ArrayList<>());
         }
-        completed = new boolean[n];
 
         for (int[] connection : connections) {
             graph.get(connection[0]).add(connection[1]);
