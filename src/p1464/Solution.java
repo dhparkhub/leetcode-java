@@ -1,16 +1,12 @@
 package p1464;
 
-import java.util.Collections;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.Arrays;
 
 class Solution {
-    private final Queue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
-
     public int maxProduct(int[] nums) {
-        for (int num : nums) {
-            pq.add(num);
-        }
-        return (pq.poll() - 1) * (pq.poll() - 1);
+        Arrays.sort(nums);
+        int x = nums[nums.length - 1] - 1;
+        int y = nums[nums.length - 2] - 1;
+        return x * y;
     }
 }
