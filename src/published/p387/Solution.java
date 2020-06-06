@@ -1,4 +1,4 @@
-package p387;
+package published.p387;
 
 class Solution {
     private final int[] countMap = new int[26];

@@ -26,6 +26,7 @@
 - [202. Happy Number](./src/published/p202)
 - [206. Reverse Linked List](./src/published/p206)
 - [207. Course Schedule](./src/published/p207)
+- [387. First Unique Character in a String](./src/published/p387)
 - [412. Fizz Buzz](./src/published/p412)
 - [743. Network Delay Time](./src/published/p743)
 - [1394. Find Lucky Integer in an Array](./src/published/p1394)
