@@ -24,7 +24,7 @@ class Solution {
                 continue;
             }
             r = m;
-        }
+        }// O(logN)
 
         int index1 = Arrays.binarySearch(nums, 0, l + 1, target);// O(logN)
         if (index1 >= 0) return index1;
