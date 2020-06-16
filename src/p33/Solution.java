@@ -7,31 +7,30 @@ class Solution {
         if (nums.length == 0) return -1;
         if (nums.length == 1) return nums[0] == target ? 0 : -1;
 
-        int numsLength = nums.length;
-
         // ascending case
         if (nums[0] < nums[nums.length - 1]) {
-            int index = Arrays.binarySearch(nums, 0, numsLength, target);// O(logN)
+            int index = Arrays.binarySearch(nums, 0, nums.length, target);// O(logN)
             return index >= 0 ? index : -1;
         }
 
-        // find pivot number
-        int l = 0, r = numsLength - 1;
-        while (l + 1 < r) {
-            int m = (l + r) / 2;
-            if (nums[m] > nums[numsLength - 1]) {
-                l = m;
+        // find minimum number's index
+        int l = 0, r = nums.length - 1;
+        while (l < r) {
+            int m = l + (r - l) / 2;
+            if (nums[m] > nums[r]) {
+                l = m + 1;
                 continue;
             }
             r = m;
         }// O(logN)
 
-        int index1 = Arrays.binarySearch(nums, 0, l + 1, target);// O(logN)
-        if (index1 >= 0) return index1;
+        int index = 0;
+        if (target >= nums[0]) {
+            index = Arrays.binarySearch(nums, 0, l, target);// O(logN)
+        } else {
+            index = Arrays.binarySearch(nums, l, nums.length, target);// O(logN)
+        }
 
-        int index2 = Arrays.binarySearch(nums, l + 1, numsLength, target);// O(logN)
-        if (index2 >= 0) return index2;
-
-        return -1;
+        return index >= 0 ? index : -1;
     }
 }
