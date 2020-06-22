@@ -14,6 +14,7 @@
 - [21. Merge Two Sorted Lists](./src/published/p21)
 - [22. Generate Parentheses](./src/published/p22)
 - [33. Search in Rotated Sorted Array](./src/published/p33)
+- [38. Count and Say](./src/published/p38)
 - [53. Maximum Subarray](./src/published/p53)
 - [56. Merge Intervals](./src/published/p56)
 - [64. Minimum Path Sum](./src/published/p64)

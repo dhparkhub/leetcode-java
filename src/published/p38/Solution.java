@@ -1,4 +1,4 @@
-package p38;
+package published.p38;
 
 class Solution {
     public String countAndSay(int n) {
