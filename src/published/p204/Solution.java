@@ -1,4 +1,4 @@
-package p204;
+package published.p204;
 
 import java.util.Arrays;
 

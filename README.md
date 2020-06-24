@@ -26,6 +26,7 @@
 - [146. LRU Cache](./src/published/p146)
 - [200. Number of Islands](./src/published/p200)
 - [202. Happy Number](./src/published/p202)
+- [204. Count Primes](./src/published/p204)
 - [206. Reverse Linked List](./src/published/p206)
 - [207. Course Schedule](./src/published/p207)
 - [387. First Unique Character in a String](./src/published/p387)
