@@ -29,6 +29,7 @@
 - [204. Count Primes](./src/published/p204)
 - [206. Reverse Linked List](./src/published/p206)
 - [207. Course Schedule](./src/published/p207)
+- [289. Game of Life](./src/published/p289)
 - [387. First Unique Character in a String](./src/published/p387)
 - [412. Fizz Buzz](./src/published/p412)
 - [743. Network Delay Time](./src/published/p743)
