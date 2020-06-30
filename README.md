@@ -38,6 +38,7 @@
 - [1396. Design Underground System](./src/published/p1396)
 - [1403. Minimum Subsequence in Non-Increasing Order](./src/published/p1403)
 - [1404. Number of Steps to Reduce a Number in Binary Representation to One](./src/published/p1404)
+- [1405. Longest Happy String](./src/published/p1405)
 - [1436. Destination City](./src/published/p1436)
 - [1437. Check If All 1's Are at Least Length K Places Away](./src/published/p1437)
 - [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](./src/published/p1438)
@@ -48,7 +49,6 @@
 
 ## Unpublished Problems
 
-- [1405. Longest Happy String](./src/p1405)
 - [1408. String Matching in an Array](./src/p1408)
 - [1409. Queries on a Permutation With Key](./src/p1409)
 - [1410. HTML Entity Parser](./src/p1410)
